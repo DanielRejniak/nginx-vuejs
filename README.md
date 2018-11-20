@@ -31,7 +31,11 @@ npm run test:unit
 ```
 
 ### Build using Docker
+```
 docker build -t nginx-vue/dockerize-vuejs-app .
+```
 
 ### Run using docker
+```
 docker run -it -p 8088:80 --rm --name dockerize-vuejs-app-1 nginx-vue/dockerize-vuejs-app
+```
