@@ -30,5 +30,8 @@ npm run lint
 npm run test:unit
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Build using Docker
+docker build -t nginx-vue/dockerize-vuejs-app .
+
+### Run using docker
+docker run -it -p 8088:80 --rm --name dockerize-vuejs-app-1 nginx-vue/dockerize-vuejs-app
