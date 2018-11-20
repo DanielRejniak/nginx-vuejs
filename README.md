@@ -1,4 +1,6 @@
-# VueJs + Nginx + Docker
+# VueJs + Nginx + Docker 
+
+[![Build Status](https://travis-ci.com/DanielRejniak/nginx-vuejs.svg?branch=master)](https://travis-ci.com/DanielRejniak/nginx-vuejs)
 
 ## Project setup
 ```
