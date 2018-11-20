@@ -1,4 +1,4 @@
-# test-app
+# VueJs + Nginx + Docker
 
 ## Project setup
 ```
