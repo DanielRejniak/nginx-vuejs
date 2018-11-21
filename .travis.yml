@@ -8,4 +8,9 @@ before_install:
 script:
   - docker login --username $DOCKER_USERNAME --password $DOCKER_PASSWORD
   - docker push danielrejniak/nginx-vuejs
+
+notifications:
+  email:
+    on_success: never # default: change
+    on_failure: always # default: always
   
